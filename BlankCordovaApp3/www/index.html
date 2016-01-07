@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <title>BlankCordovaApp3</title>
+
+    <!-- BlankCordovaApp3 references -->
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div id="domain_form">
+        <input class="center" type="text" value="https://" placeholder="Domain" id="domain"/>
+        <br />
+        <button class="center" id="btn_submit" >Submit</button>
+    </div>
+
+    <div class="center" id="name"></div>
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>

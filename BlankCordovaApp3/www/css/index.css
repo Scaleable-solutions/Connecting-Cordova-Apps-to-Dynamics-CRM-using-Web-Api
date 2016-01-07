@@ -1,0 +1,15 @@
+﻿.center {
+    position: absolute;
+    left: 25%;
+}
+#domain{
+    top: 25%;
+    width:70%;
+    left: 15%;
+}
+#btn_submit{
+    top: 50%;
+    left: 42%;
+    width:20%
+}
+
