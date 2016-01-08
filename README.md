@@ -12,7 +12,7 @@ WhoAmI Request and get fullname of the logged in user.
 
 ##Working
 
-Microsoft [Azure AD Plugin](https://github.com/AzureAD/azure-activedirectory-library-for-cordova) is included in this sample which do all the work of authentication.
+This sample uses [Microsoft Azure AD Plugin](https://github.com/AzureAD/azure-activedirectory-library-for-cordova) is included in this sample which do all the work of authentication.
 
 In this sample after authentication two simple network calls are made. First is **WhoAmIRequest** which returns logged in user id and second is **UserInfoRequest** which uses user id from **WhoAmIRequest** and returns fullname of the logged in user.
 
