@@ -4,8 +4,8 @@
 // and then run "window.location.reload()" in the JavaScript Console.
 var AuthenticationContext;
 var authority = 'https://login.microsoftonline.com/common';
-var clientID = '79820ab1-b7f1-451f-8897-196485a3a3d4';
-var redirectURL = 'https://google.com.pk';
+var clientID = <get clientID from Azure Active Directory>;
+var redirectURL = <get redirectURL from Azure Active Directory>;
 var resourceUrl = 'https://graph.windows.net/';
 var organizationURL = "";
 (function () {
