@@ -20,4 +20,4 @@ In this sample after authentication two simple network calls are made. First is 
 
 #Conclusion
 
-The given sample is great starter app to perform authentication in Android apps. It gives a good overview of how you can make connection with CRM in external apps not developed in .NET. You can freely use this sample in your apps for authentication purposes.
+The given sample is great starter app to perform authentication in cordova apps. It gives a good overview of how you can make connection with CRM in external apps not developed in .NET. You can freely use this sample in your apps for authentication purposes.
