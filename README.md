@@ -16,7 +16,7 @@ This sample uses [Microsoft Azure AD Plugin](https://github.com/AzureAD/azure-ac
 
 In this sample after authentication two simple network calls are made. First is **WhoAmIRequest** which returns logged in user id and second is **UserInfoRequest** which uses user id from **WhoAmIRequest** and returns fullname of the logged in user.
 
-**Please Provide your clientId and redirectURL in index.js** 
+**Note: Please Provide your clientId and redirectURL in index.js** 
 
 --------------------
 
